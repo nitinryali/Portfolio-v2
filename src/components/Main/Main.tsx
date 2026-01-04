@@ -4,17 +4,18 @@ import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
-import python from "../../assets/python.svg"
-import java from "../../assets/java.svg"
+import python from "../../assets/python.svg";
+import java from "../../assets/java.svg";
+import cppIcon from "../../assets/cpp.svg"
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import dockerIcon from "../../assets/docker.svg";
 import kafkaIcon from "../../assets/kafka.svg";
 import springBootIcon from "../../assets/spring-boot.svg";
 import redisIcon from "../../assets/redis.svg";
+import { Education } from "../Education/Education";
 
 export function Main() {
   return (
@@ -149,7 +150,7 @@ export function Main() {
               },
               "image": [
                 {
-                  "src": boostrapIcon,
+                  "src": cppIcon,
                   "width": 20,
                   "height": 20
                 },
@@ -246,6 +247,7 @@ export function Main() {
       />
       <Hero/> 
       <About/>
+      <Education/>
       <Project/>
       <Contact/>
     </Container>
