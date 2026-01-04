@@ -4,7 +4,7 @@ export const GlobalStyle = createGlobalStyle`
 :root{
     --pink: #E31F71;
     --black: #212121;
-    --green: #23ce6b;
+    --green: #318ed6ff;
     --blue: #016fb9;
     scroll-padding-top: 10rem;
 
@@ -14,10 +14,10 @@ export const GlobalStyle = createGlobalStyle`
     --muted: rgba(255,255,255,0.85);
     --muted-2: rgba(255,255,255,0.6);
     --card-bg: rgba(255, 255, 255, 0.02);
-    --card-border: rgba(124, 242, 228, 0.22);
-    --card-before-shadow: rgba(124, 242, 228, 0.06) inset;
-    --card-hover-border: rgba(0, 235, 210, 0.98);
-    --card-hover-shadow: 0 6px 24px rgba(0, 235, 210, 0.06), 0 0 40px rgba(0, 235, 210, 0.12), 0 0 80px rgba(124, 242, 228, 0.08);
+    --card-border: rgba(124, 201, 242, 0.22);
+    --card-before-shadow: rgba(124, 199, 242, 0.06) inset;
+    --card-hover-border: rgba(0, 176, 235, 0.98);
+    --card-hover-shadow: 0 6px 24px rgba(0, 176, 235, 0.06), 0 0 40px rgba(0, 184, 235, 0.12), 0 0 80px rgba(124, 205, 242, 0.08);
 
     &.light{
       /* override for light theme */
