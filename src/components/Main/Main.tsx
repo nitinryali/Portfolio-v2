@@ -3,7 +3,6 @@ import { Container } from "./styles";
 import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
-import { Project } from "../Project/Project";
 import python from "../../assets/python.svg";
 import java from "../../assets/java.svg";
 import cppIcon from "../../assets/cpp.svg"
@@ -16,6 +15,7 @@ import kafkaIcon from "../../assets/kafka.svg";
 import springBootIcon from "../../assets/spring-boot.svg";
 import redisIcon from "../../assets/redis.svg";
 import { Education } from "../Education/Education";
+import { Experience } from "../Experience/Experience";
 
 export function Main() {
   return (
@@ -247,9 +247,9 @@ export function Main() {
       />
       <Hero/> 
       <About/>
+      <Experience/>
       <Education/>
-      <Project/>
-      <Contact/>
+<Contact/>
     </Container>
   );
 }
